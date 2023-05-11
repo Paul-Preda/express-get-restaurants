@@ -1,9 +1,3 @@
-// let express = require("express")
-// let app = express();
-// let Restaurant = require("../models/index")
-// app.use(express.json())
-// app.use(express.urlencoded({ extended: true }))
-
 let Restaurant = require("../models")
 let { Router } = require("express")
 let router = Router()
